@@ -1,0 +1,94 @@
+.nav-title {
+font-weight: 800px;
+font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.text-primary{
+    color: brown;
+}
+
+.btn{
+    font-weight: 700px;
+    font-size: 20px;
+    color: aliceblue;
+    height: 64px;
+    border-radius: 5px;
+    background: violet;
+    border: 0px;
+    padding: 18px 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.baner-title{
+font-weight: 700;
+font-size: 45px;
+}
+.baner-sub{
+font-weight: 600;
+font-size: 45px;
+margin-bottom: 20px;
+}
+.ban-des{
+color: red;
+font-size: 18px;
+margin-bottom: 30px;
+}
+.image{
+    height: 500px;
+    width: 800px;
+}
+.header{
+    background: rgb(106, 191, 247);
+    : url(../image/6.jpg), url(../image/2.jpg);height: 0%;margin: 0%;padding: 0%;
+    background-repeat: no-repeat;
+    background-position: bottom, left;
+}
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+    background: aqua;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.about{
+margin-top: 130px;
+text-align: center;
+}
+.abo{
+text-align: center;
+font-size: 35px;
+margin-bottom: 30px;
+}
+.abp{
+color: blueviolet;
+font-size: 18px;
+margin-bottom: 30px;
+}
+.aboutcontant{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    font-size: 20px;
+    color: rgb(207, 21, 21);
+}
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: darkblue;
+}
