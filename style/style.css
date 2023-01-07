@@ -1,18 +1,3 @@
-.nav-title {
-font-weight: 800px;
-font-size: 45px;
-}
-nav ul{
-    display: flex;
-    align-items: center;
-}
-nav li{
-    list-style: none;
-    margin-left: 50px;
-}
-.text-primary{
-    color: brown;
-}
 
 .btn{
     font-weight: 700px;
@@ -20,48 +5,39 @@ nav li{
     color: aliceblue;
     height: 64px;
     border-radius: 5px;
-    background: violet;
+    background: orangered;
     border: 0px;
     padding: 18px 35px;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 200px;
-}
 .banner{
     margin: 0 200px;
-    display: flex;
     align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../image/banner1.png);
+    background-size: cover;
+    background-position: center;
+}
+.ban{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 300px 0px 80px 500px;
 }
 .baner-title{
 font-weight: 700;
 font-size: 45px;
+text-align: right;
 }
 .baner-sub{
 font-weight: 600;
 font-size: 45px;
 margin-bottom: 20px;
-}
-.ban-des{
-color: red;
-font-size: 18px;
-margin-bottom: 30px;
-}
-.image{
-    height: 500px;
-    width: 800px;
-}
-.header{
-    background: rgb(106, 191, 247);
-    : url(../image/6.jpg), url(../image/2.jpg);height: 0%;margin: 0%;padding: 0%;
-    background-repeat: no-repeat;
-    background-position: bottom, left;
+text-align: right;
 }
 main{
     max-width: 1100px;
     margin: 0 auto;
-    background: aqua;
     border-radius: 10px;
     padding: 130px 150px;
 }
@@ -70,12 +46,13 @@ margin-top: 130px;
 text-align: center;
 }
 .abo{
-text-align: center;
-font-size: 35px;
+text-align: right;
+font-size: 70px;
 margin-bottom: 30px;
 }
 .abp{
-color: blueviolet;
+    text-align: right;
+color: black
 font-size: 18px;
 margin-bottom: 30px;
 }
@@ -91,4 +68,59 @@ margin-bottom: 30px;
     font-size: 20px;
     font-weight: 700;
     color: darkblue;
+}.whatido{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    background-image: ;
+}
+.mainn{
+    background-image: url(../image/person.png);
+    background-repeat: no-repeat;
+}
+.list{
+    font-size: 30px;
+    text-align: right;
+}
+.info-title{
+    font-size: 30px;
+    color: black;
+}
+.foota{
+    height: 700px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h8{
+    color: white;
+    text-align: left;
+    font-size: 50px;
+}
+.h9{
+    color: white;
+    font-size: 20px;
+}
+.h10{
+    font-size: 30px;
+    color: white;
+}
+.pla{
+    font-weight: 700px;
+    font-size: 20px;
+    color: aliceblue;
+    height: 64px;
+    border-radius: 5px;
+    background: orangered;
+    border: 0px;
+    padding: 18px 35px;
+}
+.uni{
+    margin: 0px;
+    padding: 0px;
+    display: block;
 }
